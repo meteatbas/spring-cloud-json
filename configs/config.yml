@@ -1,0 +1,16 @@
+not:
+  bootstrap-servers: localhost:9092yenideger
+  topics:
+    number-of-partitions: 1
+    replication-factor: 1
+  consumer:
+    group.id: chatbot-admin-core
+    auto.offset.reset: earliest
+chatbot:
+  selam-servers: localhost:9093yenideger
+  footbal:
+    number-of-partitions: 1
+    replication-factor: 1
+  contumer:
+    group.id: chatbot-admin-core
+    auto.offset.reset: earliest
